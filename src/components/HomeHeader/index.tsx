@@ -7,7 +7,7 @@ export function HomeHeader() {
       <Greeting>
         <Message>Olá</Message>
 
-        <Name>Rodrigo</Name>
+        <Name>Edson</Name>
       </Greeting>
     </Container>
   );
