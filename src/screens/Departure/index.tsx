@@ -98,16 +98,6 @@ export function Departure() {
               onChangeText={setDescription}
             />
 
-            <TextAreaInput
-              ref={descriptionRef}
-              label="Finalizade"
-              placeholder="Vou utilizar o veículo para..."
-              onSubmitEditing={handleDepartureRegister}
-              returnKeyType="send"
-              blurOnSubmit
-              onChangeText={setDescription}
-            />
-
             <Button
               title="Registar Saída"
               onPress={handleDepartureRegister}
