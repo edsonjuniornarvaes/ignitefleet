@@ -13,6 +13,7 @@
     "@realm/react": "^0.5.1",
     "@types/styled-components": "^5.1.26",
     "@types/styled-components-react-native": "^5.2.1",
+    "dayjs": "^1.11.9",
     "expo": "~48.0.18",
     "expo-auth-session": "~4.0.3",
     "expo-crypto": "~12.2.1",
