@@ -1,6 +1,7 @@
 import { Realm } from "@realm/react";
 
 type GenerateProps = {
+  id: string;
   user_id: string;
   description: string;
   license_plate: string;
