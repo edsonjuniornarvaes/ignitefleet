@@ -1,4 +1,4 @@
-import styled from "styled-components/native";
+import styled from 'styled-components/native';
 
 export const Container = styled.View`
   width: 100%;
@@ -6,7 +6,6 @@ export const Container = styled.View`
   flex-direction: row;
   justify-content: space-between;
   background-color: ${({ theme }) => theme.COLORS.GRAY_700};
-  z-index: 1;
 `;
 
 export const Title = styled.Text`

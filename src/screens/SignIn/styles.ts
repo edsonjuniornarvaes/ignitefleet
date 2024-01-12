@@ -1,4 +1,4 @@
-import styled from "styled-components/native";
+import styled from 'styled-components/native';
 
 export const Container = styled.ImageBackground`
   flex: 1;
@@ -19,5 +19,6 @@ export const Slogan = styled.Text`
   font-size: ${({ theme }) => theme.FONT_SIZE.MD}px;
   font-family: ${({ theme }) => theme.FONT_FAMILY.REGULAR};
   text-align: center;
+
   margin-bottom: 32px;
-`;
+`; 

@@ -1,11 +1,11 @@
-import { TouchableOpacity } from "react-native";
-import { Power } from "phosphor-react-native";
-import { useUser, useApp } from "@realm/react";
-import { useSafeAreaInsets } from "react-native-safe-area-context";
+import { TouchableOpacity } from 'react-native'
+import { Power } from 'phosphor-react-native'
+import { useUser, useApp } from '@realm/react';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
-import { Container, Greeting, Message, Name, Picture } from "./styles";
+import { Container, Greeting, Message, Name, Picture } from './styles';
 
-import theme from "../../theme";
+import theme from '../../theme';
 
 export function HomeHeader() {
   const user = useUser();
@@ -20,14 +20,18 @@ export function HomeHeader() {
 
   return (
     <Container style={{ paddingTop }}>
-      <Picture
+      <Picture 
         source={{ uri: user?.profile.pictureUrl }}
-        placeholder="L184i9ofbHof00ayjsay~qj[ayj@"
+        placeholder='L184i9ofbHof00ayjsay~qj[ayj@'
       />
       <Greeting>
-        <Message>Olá</Message>
+        <Message>
+          Olá
+        </Message>
 
-        <Name>{user?.profile.name}</Name>
+        <Name>
+          {user?.profile.name}
+        </Name>
       </Greeting>
 
       <TouchableOpacity activeOpacity={0.7} onPress={handleLogOut}>

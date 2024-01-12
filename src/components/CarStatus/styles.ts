@@ -1,4 +1,4 @@
-import styled from "styled-components/native";
+import styled from 'styled-components/native';
 
 export const Container = styled.TouchableOpacity`
   width: 100%;
@@ -30,7 +30,7 @@ export const Message = styled.Text`
 
   flex: 1;
   text-align: justify;
-  textalignvertical: center;
+  textAlignVertical: center;
 `;
 
 export const TextHighlight = styled.Text`
